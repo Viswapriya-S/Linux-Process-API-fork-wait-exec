@@ -24,6 +24,7 @@ Test the C Program for the desired output.
 # PROGRAM:
 
 ## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
+```
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -42,7 +43,7 @@ int main(void)
 	printf("The process id: %d\n",process_id);
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0; }
-
+```
 
 
 ##OUTPUT
@@ -51,7 +52,7 @@ int main(void)
 
 
 ## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
-
+```
 #include <stdlib.h>
 #include <sys/wait.h>
 #include<stdio.h>
@@ -69,7 +70,7 @@ printf("I am parent, my pid is %d\n",getpid());
 sleep(100); 
 exit(0);} 
 }
-
+```
 
 ##OUTPUT
 
